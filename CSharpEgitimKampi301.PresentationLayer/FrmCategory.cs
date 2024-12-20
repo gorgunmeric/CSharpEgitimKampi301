@@ -63,5 +63,10 @@ namespace CSharpEgitimKampi301.PresentationLayer
             var values=_categoryService.TGetById(id);
             dataGridView1.DataSource = values;
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
